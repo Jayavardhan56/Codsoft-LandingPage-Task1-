@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lets Learn Tech</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="data:image/png;base64,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"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#technologies" class="nav-link">TECHNOLOGIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICES</a>
+          <a href="#contact" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://imageio.forbes.com/specials-images/imageserve/5ef3f7eec4f2390006f0c356/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Explore, Learn, Land a Job</h1>
+          <h2>
+            Welcome to Lets Learn TECH
+Here you are going to explore many new things learn various kind of hidden technologies and also how they are used in our daily life.
+And also you are offered with various kind of video lectures and some interactive exercises which helps to boost your Skills.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Register Now
+          </button>
+        </div>
+      </section>
+
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+           Welcome to our platform. Here we are an organisation who are willing
+           to help students and other working proffessionals to learn new technologies
+           and help them to gain new skills. With us you are also able to choose what are
+           intrested in and how you are going to learn that. We also help you to find the 
+           technology stack you are comfartable with and helps you to gain knowledge about it.
+           So by learning it you are able to start a new carrer in that field or also
+           helps you to make better in that field.
+          </p>
+          <img src="https://elearningindustry.com/wp-content/uploads/2022/11/shutterstock_1798672534.jpg" alt="A student learning technologies" />
+        </div>
+      </section>
+
+      <section id="technologies" class="sec-padding">
+        <h3 class="section-heading">TECHNOLOGIES</h3>
+        <div class="sec-content-div flexible">
+
+          <div class="tile">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/643016813686d8eafca00875//960x0.jpg?height=473&amp;width=711&amp;fit=bounds" alt="960x0" alt="photo of AI" />
+            <h4>Artificial Intelligence</h4>
+            <p>
+                The most Trending fiel is AI. So we help you to learn 
+                the AI from the scratch.
+            </p>
+          </div>
+
+          <div class="tile">
+            <img
+              src="https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/machine-learning-pillar-page-overview.jpeg" alt="machine-learning-pillar-page-overview"
+              alt="ML"
+            />
+            <h4>Machine Learning</h4>
+            <p>
+             The machine Learning is evolving daily, So Lets
+             dive into the field of ML and gain prior knowledge.
+            </p>
+          </div>
+
+          <div class="tile">
+            <img src="https://www.cybersuccess.biz/wp-content/uploads/2022/06/Explore-The-Essential-Characteristics-of-Cloud-Computing.webp" alt="Explore-The-Essential-Characteristics-of-Cloud-Computing" />
+            <h4>Cloud Computing</h4>
+            <p>
+                Helps You to learn the delivery of computing services on-demand,
+                including storage, servers, databases, software, networking, and analytics.
+                Cloud-based storage allows users to save files to a remote source. 
+            </p>
+          </div>
+
+          <div class="tile">
+            <img src="https://images.spiceworks.com/wp-content/uploads/2022/10/04121130/Concept-depicting-block-validation-in-the-blockchain-and-digital-ledger.jpg" alt="Concept-depicting-block-validation-in-the-blockchain-and-digital-ledger" />
+            <h4>Block Chain</h4>
+            <p>
+              Helps you to learn blockchain which is a decentralized, distributed 
+              and public digital ledger that is used to record transactions across many 
+              computers so that the record cannot be altered retroactively without the alteration of
+               all subsequent blocks and the consensus of the network.
+            </p>
+          </div>
+
+          <div class="tile">
+            <img src="https://www.cdmi.in/courses@2x/web-developments.webp" alt="web-developments" />
+            <h4>Web Development</h4>
+            <p>
+                Learn the web development with the tasks associated with creating, building, 
+                and maintaining websites and web applications that run online on a browser. 
+            </p>
+          </div>
+
+          <div class="tile">
+            <img src="https://media.licdn.com/dms/image/D5612AQGrWJClop4C4A/article-cover_image-shrink_600_2000/0/1669263859932?e=2147483647&amp;v=beta&amp;t=e3JK5OO7WIp4C-FBLu5PnBpL0bRtBlbVquX0-6nwOhc" alt="1669263859932" />
+            <h4>Ethical Hacking</h4>
+            <p>
+            Explains the Ethical hacking is a process of detecting vulnerabilities in an application,
+             system, or organization's infrastructure that an attacker can use to exploit an individual or organization.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Find</h5>
+              <p>Let You find which technology you are comfortable.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://www.un.org/sites/un2.un.org/files/2020/10/noun_training_3129890_copy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Train</h5>
+              <p>
+                Make Sure to learn them from scratch understand, and 
+                visualize them with the help of labs.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Land</h5>
+              <p>
+                We guarantee 100% student satisfaction. Now you are going 
+                to use the technologies learnt in real life to build projects
+                and also help you to land a job.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To attend a demo class please contact us:</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">K.Jayavardhan</a>
+    </footer>
+  </body>
+</html>
